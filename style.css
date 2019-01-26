@@ -1,0 +1,141 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+ }
+
+ body{
+ 	text-align: center;
+ }
+
+	.color{
+	color:green;
+}
+.head{
+	color:grey;
+	background-color: yellow;
+	text-decoration-line: underline;
+	font-family:'Open Sans Condensed', sans-serif;
+	margin: 0px;
+    padding: 0px;
+    font-size: 8rem;
+}
+
+h1{
+	font-size: 10rem;
+	margin: 0;
+}
+p{
+	font-size: 3rem;
+	margin: 0;
+}
+
+input[type=number]{
+	width:30%;
+	padding:.7rem;
+	display: block;
+	margin: 1% 0 2% 0;
+	font-size: 2rem;
+	border:1px solid #696969;
+	margin-left: 35%;
+}
+
+#p1{
+margin-left: 2%;
+	width: 10%;
+text-align: left;
+background-color: #3FE0D0;
+color:white;
+padding:.6rem;
+border-bottom-right-radius:.3rem; 
+	border:none;
+	font-size:130% ;
+	border:1px solid #696969;
+	cursor: -webkit-grab;
+	cursor:grab;
+}
+
+#p2{
+	border:none;
+	margin-left: 2%;
+    width: 10%;
+    border-bottom-right-radius:.3rem;
+    padding: .6rem;
+    background-color: #3FE0D0;
+    color:#696969;
+    font-size:130% ;
+    border:1px solid #696969;
+    cursor:grab;
+}
+
+#reset{
+	border:none;
+	margin: 1% 7%;
+    width: 10%;
+    border-bottom-right-radius:.3rem;
+    padding: .6rem;
+    background-color:#FF0000 ;
+    color:white;
+    font-size:130% ;
+     display: block;
+    margin-left: 45%;
+    cursor:grab;
+}
+
+#p1:hover{
+ color: #3FE0D0;
+ background-color: white;
+ border: 1px solid powderblue;	
+
+}
+
+#p2:hover{
+ color: #3FE0D0;
+ background-color: black;
+ border: 1px solid #3FE0D0;	
+
+}
+
+#reset:hover{
+ color: #FF0000;
+ background-color: white;
+ border: 1px solid #FF0000;	
+
+}
+
+/*media queries for responsivenes*/
+
+@media  screen and (max-width: 700px) {
+	 #p1 {
+	width: 20%;}
+
+	 #p2 {
+	width: 20%;}
+
+	 #reset {
+	width: 20%;}
+}
+
+@media screen and (max-width: 1088px){
+	input[type=number]{
+		font-size: 1.5rem;
+
+	}
+}
+@media screen and (max-width: 830px){
+	input[type=number]{
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 575px){
+	input[type=number]{
+		font-size: 0.8rem;
+
+	}
+}
+@media screen and (max-width: 470px){
+	input[type=number]{
+		font-size: 0.7rem;
+
+	}
+}
