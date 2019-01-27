@@ -38,10 +38,11 @@
 			});
 		  }
 		}
+		 //Resetting Everything
 	         resetBut.addEventListener("click", function(){
 	        reset();
 	         } );
-
+                   //reset function
 	           function reset(){
 	         p1s=0;
 	         p2s=0;
@@ -51,6 +52,7 @@
 	         p2score.classList.remove("color");
 	         gameOver=false;
 	           }
+		 //Updating PlayingTo value
 	          input.addEventListener("change", function(){
 	            paraScore.textContent=this.value;
 	            winScore=Number(this.value);
